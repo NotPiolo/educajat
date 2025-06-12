@@ -1,0 +1,16 @@
+I0611 20:27:29.604187   14928 load.go:37] Reloading schema and connectors...
+I0611 20:27:29.631503   14928 control.go:73] [/emulator/frontend 3874] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0611 20:27:29.650722   14928 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\david\\OneDrive\\Escritorio\\educajat\\frontend\\dataconnect-generated\\js\\default-connector"
+I0611 20:27:29.658936   14928 collector.go:107] schema extensions wrote into "C:\\Users\\david\\OneDrive\\Escritorio\\educajat\\frontend\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71531B] 
+I0611 20:27:29.663629   14928 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\david\\OneDrive\\Escritorio\\educajat\\frontend\\dataconnect-generated\\js\\default-connector"
+Generated sources: angular\package.json [661B] esm\package.json [17B] index.cjs.js [146B] react\index.d.ts [228B] react\esm\index.esm.js [0B] angular\index.d.ts [0B] package.json [1110B] react\index.cjs.js [0B] react\README.md [5357B] angular\esm\package.json [17B] angular\esm\index.esm.js [0B] esm\index.esm.js [111B] README.md [2774B] react\package.json [468B] react\esm\package.json [17B] angular\index.cjs.js [1B] index.d.ts [246B] angular\README.md [5069B] 
+I0611 20:27:29.673147   14928 installsdk.go:80] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
+I0611 20:27:32.963231   14928 load.go:115] Finished reloading
+I0611 20:27:32.963736   14928 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0611 20:27:32.964255   14928 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0611 20:27:35.946581   14928 control.go:73] [/emulator/frontend 0ff4] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
